@@ -26,3 +26,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="dubai_g-user 14 U1RDS34.80-40-5-6 ba4fd-68ef4 release-keys" \
     BuildFingerprint=motorola/dubai_g/dubai:14/U1RDS34.80-40-5-6/ba4fd-68ef4:user/release-keys \
     DeviceProduct=dubai_g
+
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := false
+TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_BUILD_DEVICE_AS_WEBCAM := false
+
