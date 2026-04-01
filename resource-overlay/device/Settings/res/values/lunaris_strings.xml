@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LunarisOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lunaris_device_message">Motorola Edge 30</string>
+    <string name="lunaris_processor_code_message">Snapdragon® 778G+</string>
+    <string name="lunaris_battery_type_message">4020 mAh</string>
+    <string name="lunaris_screen_message">pOLED FHD+ 144Hz</string>
+</resources>
