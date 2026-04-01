@@ -3,3 +3,7 @@ persist.vendor.camera.physical.num=4
 
 # NFC
 persist.vendor.nfc.st.multisim_fw_config=true
+
+
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=1

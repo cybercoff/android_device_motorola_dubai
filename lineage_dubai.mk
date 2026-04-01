@@ -61,3 +61,6 @@ TARGET_CUSTOM_UDFPS := false
 
 # SurfaceFlinger boost - compatible con Snapdragon, útil
 SURFACE_FLINGER_BOOST := true
+
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
