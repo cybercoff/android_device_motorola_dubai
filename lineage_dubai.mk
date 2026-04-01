@@ -35,8 +35,29 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# no incluir face unlock
 TARGET_FACE_UNLOCK_SUPPORTED := false
+
+# descartar quick tap
 TARGET_SUPPORTS_QUICK_TAP := false
+
+# no usar webcam for camera (sec)
 TARGET_BUILD_DEVICE_AS_WEBCAM := false
-TARGET_ENABLE_BLUR := true
-TARGET_HAS_UDFPS := true
+
+# ROM type
+LUNARIS_BUILD_TYPE := UNOFFICIAL
+
+# BCR - a tu criterio
+WITH_BCR := false
+
+# Highend device, vale la pena
+TARGET_OPTIMIZED_DEXOPT := true
+
+# Blur - a gusto, no afecta funcionalidad
+TARGET_ENABLE_BLUR := false
+
+# dubai tiene UDFPS (under-display fingerprint)
+TARGET_CUSTOM_UDFPS := false
+
+# SurfaceFlinger boost - compatible con Snapdragon, útil
+SURFACE_FLINGER_BOOST := true
