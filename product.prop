@@ -6,3 +6,5 @@ ro.mot.build.customerid=global
 
 # Radio
 ro.vendor.radio.imei.sv=48
+
+ro.lunaris.maintainer=DDM
