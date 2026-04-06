@@ -54,10 +54,10 @@ WITH_BCR := false
 TARGET_OPTIMIZED_DEXOPT := true
 
 # Blur - a gusto, no afecta funcionalidad
-TARGET_ENABLE_BLUR := false
+TARGET_ENABLE_BLUR := true
 
 # dubai tiene UDFPS (under-display fingerprint)
-TARGET_CUSTOM_UDFPS := false
+TARGET_CUSTOM_UDFPS := true
 
 # SurfaceFlinger boost - compatible con Snapdragon, útil
 SURFACE_FLINGER_BOOST := true
