@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/cybercoff/releases_crdroid/main/dubai.json</string>
+</resources>

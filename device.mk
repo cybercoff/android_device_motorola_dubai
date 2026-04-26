@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += \
     FrameworksResDevice \
     LineageSystemUIDevice \
     SettingsResDevice \
+    UpdaterResDevice \
     SystemUIResDevice \
     WifiResDevice
 
