@@ -66,3 +66,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Use aosp telephony
 TARGET_SUPPORTS_GOOGLE_TELEPHONY := false
+
+# X-Reality Engine display enhancement
+USE_REALITY_ENGINE := true
