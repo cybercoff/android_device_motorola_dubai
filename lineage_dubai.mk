@@ -46,6 +46,7 @@ TARGET_BUILD_DEVICE_AS_WEBCAM := false
 
 # ROM type
 LUNARIS_BUILD_TYPE := UNOFFICIAL
+override LUNARIS_BUILD_VARIANT := MicroG
 
 # BCR - a tu criterio
 WITH_BCR := false
