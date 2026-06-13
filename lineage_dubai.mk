@@ -46,7 +46,6 @@ TARGET_BUILD_DEVICE_AS_WEBCAM := false
 
 # ROM type
 LUNARIS_BUILD_TYPE := UNOFFICIAL
-override LUNARIS_BUILD_VARIANT := MicroG
 
 # BCR - a tu criterio
 WITH_BCR := false
@@ -61,7 +60,7 @@ TARGET_ENABLE_BLUR := true
 TARGET_CUSTOM_UDFPS := false
 
 # SurfaceFlinger boost - compatible con Snapdragon, útil
-SURFACE_FLINGER_BOOST := false
+SURFACE_FLINGER_BOOST := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -70,3 +69,5 @@ TARGET_SUPPORTS_GOOGLE_TELEPHONY := false
 
 # X-Reality Engine display enhancement
 USE_REALITY_ENGINE := true
+
+TARGET_USE_WALLPAPERS := false
