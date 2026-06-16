@@ -8,6 +8,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     Jelly \
     Recorder \
     BatteryStatsViewer \
+    Via \
+    Chocola \
     MatLog \
     Twelve \
     Glimpse \
