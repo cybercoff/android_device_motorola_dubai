@@ -14,6 +14,9 @@ $(call inherit-product, device/motorola/dubai/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit some Microg stuff.
+$(call inherit-product, vendor/partner_gms/products/gms_minimal.mk)
+
 PRODUCT_NAME := lineage_dubai
 PRODUCT_DEVICE := dubai
 PRODUCT_MANUFACTURER := motorola
@@ -40,6 +43,9 @@ TARGET_SUPPORTS_QUICK_TAP := false
 
 # no usar webcam for camera (sec)
 TARGET_BUILD_DEVICE_AS_WEBCAM := false
+
+# ROM type
+LUNARIS_BUILD_TYPE := UNOFFICIAL
 
 # BCR - a tu criterio
 WITH_BCR := false
