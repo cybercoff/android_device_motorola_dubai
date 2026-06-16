@@ -45,9 +45,6 @@ TARGET_SUPPORTS_QUICK_TAP := false
 # no usar webcam for camera (sec)
 TARGET_BUILD_DEVICE_AS_WEBCAM := false
 
-# ROM type
-LUNARIS_BUILD_TYPE := UNOFFICIAL
-
 # BCR - a tu criterio
 WITH_BCR := false
 
