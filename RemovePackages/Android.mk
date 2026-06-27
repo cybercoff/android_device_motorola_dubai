@@ -9,6 +9,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     Recorder \
     BatteryStatsViewer \
     Via \
+    ReFra \
     Chocola \
     MatLog \
     Twelve \
