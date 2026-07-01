@@ -14,10 +14,6 @@ $(call inherit-product, device/motorola/dubai/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit some Microg stuff.
-$(call inherit-product, vendor/partner_gms/products/gms_minimal.mk)
-override LUNARIS_BUILD_VARIANT := MicroG
-
 PRODUCT_NAME := lineage_dubai
 PRODUCT_DEVICE := dubai
 PRODUCT_MANUFACTURER := motorola
