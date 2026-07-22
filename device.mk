@@ -46,11 +46,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DubaiCameraService
 
-# Dalvik crDroid
+# Dalvik LunarisAOSP
 $(call inherit-product, frameworks/native/build/phone-xhdpi-8192-dalvik-heap.mk)
-
-# Dolby
-$(call inherit-product, hardware/motorola/dolby/setup.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
